@@ -33,6 +33,7 @@ const Seacrhcon = styled.div`
     margin-left: 30px;
     padding: 3px;
     border-radius: 10px;
+    background-color: white;
 `;
 
 const Input = styled.input`
@@ -75,11 +76,11 @@ const Navbar = () => {
                     </Language>
                     <Seacrhcon>
                         <Input  />
-                        <Search style={{ color:"gray", fontSize:"16px"}} />
+                        <Search />
                     </Seacrhcon>
                 </Left>
                 <Center>
-                    <Logo>Whatever</Logo>
+                    <Logo>CAMPROSBY</Logo>
                 </Center>
                 <Right>
                     <Menuitem style={{ padding:"5px 10px 5px 10px", backgroundColor:"black", color:"white"}}>SIGN IN</Menuitem>
